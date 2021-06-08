@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thermostat</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_send_cool">Send Cool</string>
+    <string name="btn_send_heat">Send Heat</string>
+    <string name="toggle_enable_temp_ctrl">Control</string>
+    <string name="toggle_force_fan">Fan</string>
+    <string name="dialog_message_heat">Adjust heat reference</string>
+    <string name="dialog_message_cool">Adjust cool reference</string>
+    <string name="dialog_title">New Temperature</string>
+    <string name="ok">OK</string>
+    <string name="celcius"> °C</string>
+    <string name="celcius_full">Degrees Celsius</string>
+    <string name="cancel">Cancel</string>
+    <string name="text_status_tag">Status: </string>
+    <string name="text_status_initial">Starting up</string>
+    <string name="text_status_wifi_tcp_connected">TCP connected</string>
+    <string name="text_status_wifi_notconnected">Not connected</string>
+    <string name="text_status_wifi_connected">Network Connected</string>
+    <string name="img_btn_heat">Img btn heat</string>
+    <string name="img_btn_cool">Img btn cool</string>
+    <string name="text_dash">-</string>
+    <string name="action_exit">Exit</string>
+    <string name="title_activity_display_message">Adjust temperature</string>
+    <string name="server_string">Server</string>
+    <string name="port_str">Port</string>
+    <string name="local_net_str">Local net</string>
+
+</resources>

@@ -1,0 +1,150 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginRight="@dimen/activity_vertical_margin"
+    android:alignmentMode="alignMargins"
+    android:columnCount="1"
+    android:fitsSystemWindows="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:longClickable="false"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/TextViewTempCtrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/text_dash"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/big_text_size" />
+
+    <TextView
+        android:id="@+id/textViewMeas"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="@string/text_dash"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/extra_big_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageViewCool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/img_btn_cool"
+            android:minHeight="45dp"
+            android:onClick="BtnSendCoolOnClick"
+            android:src="@drawable/ic_zuz_cool" />
+
+        <TextView
+            android:id="@+id/text_cool_ref"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:minHeight="46dp"
+            android:onClick="BtnSendCoolOnClick"
+            android:text="@string/text_dash"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/big_text_size" />
+
+        <TextView
+            android:id="@+id/text_degree_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/celcius"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/big_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageViewHeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/img_btn_heat"
+            android:minHeight="45dp"
+            android:onClick="BtnSendHeatOnClick"
+            android:src="@drawable/ic_zuz_heat" />
+
+        <TextView
+            android:id="@+id/text_heat_ref"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:minHeight="46dp"
+            android:onClick="BtnSendHeatOnClick"
+            android:text="@string/text_dash"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/big_text_size" />
+
+        <TextView
+            android:id="@+id/text_degree_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/celcius"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/big_text_size" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switchEnableControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="SwitchEnableCtrlClick"
+        android:text="@string/toggle_enable_temp_ctrl"
+        android:textSize="@dimen/medium_text_size_" />
+
+    <Switch
+        android:id="@+id/switchForceFan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="SwitchForceFanClick"
+        android:text="@string/toggle_force_fan"
+        android:textSize="@dimen/medium_text_size_" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:text="@string/text_status_tag"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/normal_text_size" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@android:color/transparent"
+        android:transcriptMode="alwaysScroll" >
+    </ListView>
+
+</GridLayout>

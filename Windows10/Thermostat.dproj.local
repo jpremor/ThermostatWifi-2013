@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/09/15 21:49:04.098.pas,D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\Unit1.pas=D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\WizardNovoLote.pas</Transaction>
+    <Transaction>2010/09/15 21:49:04.109.dfm,D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\Unit1.dfm=D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\WizardNovoLote.dfm</Transaction>
+    <Transaction>2010/09/25 17:06:50.381.pas,D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\LogicaAviario.pas=</Transaction>
+    <Transaction>2010/09/25 17:27:17.227.pas,D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\WizardNovoLote.pas=</Transaction>
+    <Transaction>2010/09/25 17:27:17.227.dfm,D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\WizardNovoLote.dfm=</Transaction>
+    <Transaction>2010/09/26 19:24:29.634.pas,D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\Unit1.pas=D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\Sobre.pas</Transaction>
+    <Transaction>2010/09/26 19:24:29.657.dfm,D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\Unit1.dfm=D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\Sobre.dfm</Transaction>
+    <Transaction>2010/09/26 20:51:39.833.pas,D:\Docs\Projetos\Wolfmeyer\PacoteAviario\trunk\MonitorAviario\ImageWindow.pas=</Transaction>
+    <Transaction>2010/10/23 14:11:23.620.pas,D:\Docs\Projetos\SUREA\PacoteAviario\trunk\MonitorAviario\Unit1.pas=D:\Docs\Projetos\SUREA\PacoteAviario\trunk\MonitorAviario\WizzardFechaLote.pas</Transaction>
+    <Transaction>2010/10/23 14:11:23.682.dfm,D:\Docs\Projetos\SUREA\PacoteAviario\trunk\MonitorAviario\Unit1.dfm=D:\Docs\Projetos\SUREA\PacoteAviario\trunk\MonitorAviario\WizzardFechaLote.dfm</Transaction>
+    <Transaction>2013/08/12 20:13:13.336.dproj,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\MonitorAviario.dproj=C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows7\Thermostat.dproj</Transaction>
+    <Transaction>2013/08/12 22:39:40.011.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\Principal.pas=C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows7\Main.pas</Transaction>
+    <Transaction>2013/08/12 22:39:40.011.dfm,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\Principal.dfm=C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows7\Main.dfm</Transaction>
+    <Transaction>2013/08/12 22:51:06.739.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\Timeouts.pas=</Transaction>
+    <Transaction>2013/08/12 22:51:11.861.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\WizzardFechaLote.pas=</Transaction>
+    <Transaction>2013/08/12 22:51:11.861.dfm,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\WizzardFechaLote.dfm=</Transaction>
+    <Transaction>2013/08/12 22:51:16.006.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\WizardNovoLote.pas=</Transaction>
+    <Transaction>2013/08/12 22:51:16.007.dfm,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\WizardNovoLote.dfm=</Transaction>
+    <Transaction>2013/08/12 22:51:19.852.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\Sobre.pas=</Transaction>
+    <Transaction>2013/08/12 22:51:19.852.dfm,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\Sobre.dfm=</Transaction>
+    <Transaction>2013/08/12 22:51:24.037.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\ModbusMestre.pas=</Transaction>
+    <Transaction>2013/08/12 22:51:28.587.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\LogicaAviario.pas=</Transaction>
+    <Transaction>2013/08/12 22:51:33.335.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\BalancaToledo.pas=</Transaction>
+    <Transaction>2013/08/12 22:51:41.232.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\AtualizaPedidosModbus.pas=</Transaction>
+    <Transaction>2013/08/12 22:51:54.295.pas,C:\Users\ze\Google Drive\Projetos\Eletronica\Zus\ThermostatSW\Windows\NiceChart.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
